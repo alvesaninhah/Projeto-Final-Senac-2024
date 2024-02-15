@@ -1,1 +1,1 @@
-Realizado treinamento gitbash e github producao
+Realizado treinamento gitbash e github Pull Request Homologacao e producao 
