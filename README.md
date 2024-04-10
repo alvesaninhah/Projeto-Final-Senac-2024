@@ -15,7 +15,7 @@ Este projeto tem objetivo colocar em pratica conhecimento adiquirido durante per
 
 Inicialmente foi apresentado conceitos, apostilas e tutoriais sobre linguagem HTML5 (Linguagem de Marcação de HiperTexto) onde foi apresentado uso comando basico:
 TAG HTML	DESCRIÇÃO
-"<article>"	Representa um pedaço independente do conteúdo de um documento, como um texto, notícias, blog, fórum
+<code><article></code>	Representa um pedaço independente do conteúdo de um documento, como um texto, notícias, blog, fórum
 <aside>	Representa uma parte de conteúdo relacionado com a página
 <input>	Um botão, um radiobutton ou checkbox
 <figure>	Pode ser usado para associar uma legenda, como de um gráfico ou de vídeo
