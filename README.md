@@ -14,27 +14,10 @@ Este projeto tem objetivo colocar em pratica conhecimento adiquirido durante per
 **LINGUAGEM HMTL5**
 
 Inicialmente foi apresentado conceitos, apostilas e tutoriais sobre linguagem HTML5 (Linguagem de Marcação de HiperTexto) onde foi apresentado uso comando basico:
-TAG HTML	DESCRIÇÃO
-`<article>`Representa um pedaço independente do conteúdo de um documento, como um texto, notícias, blog, fórum
-`<aside>`	Representa uma parte de conteúdo relacionado com a página
-`<input>`	Um botão, um radiobutton ou checkbox
-`<figure>`	Pode ser usado para associar uma legenda, como de um gráfico ou de vídeo
-`<figcaption>`	Legenda da figura de seção
-`<footer>`	Usado para indicação de um rodapé de documento ou seção, podendo incluir: data, autor, contatos e direitos autorais.
-`<header>`	Usado para introduzir um documento ou seção. Pode incluir o elemento `<nav>`
-`<hgroup>`	Usado em uma seção de títulos, usando <h1> para <h6>, onde o maior é o título principal da seção, e os outros são subtítulos
-`<nav>`	Usado para uma seção de navegação (menu)
-`<section>`	Seção de um documento, como capítulos, cabeçalhos, rodapés ou outras seções do documento
-`<time>`	Definição de tempo ou data
+![image](https://github.com/MarcioMa/Projeto-Final-Senac-2024/assets/44624503/af76a8e3-366d-4034-88d7-04fb90f44815)
 
 Dentre os elementos os que compõem a estrutura de uma página são:
-
-`<header>` - define o cabeçalho da página ou de uma seção (não confundir com a tag <head>);
-`<section>` - define cada seção do conteúdo;
-`<article>` - define um item do conteúdo dentro da página ou da seção;
-`<footer>` - define o rodapé da página ou de uma seção;
-`<nav>` - define o conjunto de links que formam a navegação ;
-`<aside>` - define o conteúdo relacionado ao artigo.
+https://www.macoratti.net/Cursos/html5/html5_62.gif
 
 **ESTILO CSS**
 
