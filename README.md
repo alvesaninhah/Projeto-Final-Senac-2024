@@ -39,42 +39,45 @@ Dentre os elementos os que compõem a estrutura de uma página são:
 **ESTILO CSS**
 
 Em seguida foi apresentado comando estilização script CSS utilizado para alterar posições objetos, tamanho, cores e efeitos na pagina HTML5 os comando basico são:
-
-1. Seletores Básicos:
+**Seletores Básicos:**
 Os seletores CSS são a base para direcionar elementos específicos para aplicar estilos. Alguns dos seletores mais comuns incluem:
 
-Tipo de Elemento:
+**Tipo de Elemento:**
 p { /* Estilos para todos os parágrafos */ }
-Classe:
+
+**Classe:**
 .destaque { /* Estilos para elementos com a classe "destaque" */ }
-ID:
+
+**ID:**
 #cabecalho { /* Estilos para o elemento com o ID "cabecalho" */ }
-2. Propriedades de Texto:
-Fonte e Tamanho:
+
+** Propriedades de Texto Fonte e Tamanho:**
 body { font-family: 'Arial', sans-serif; font-size: 16px; }
 Cor do Texto:
 h1 { color: #3498db; }
-Alinhamento:
+
+**Alinhamento:**
 p { text-align: justify; }
 3. Box Model:
 O Box Model é crucial para o layout e dimensionamento de elementos.
 
-Margens, Preenchimento e Borda:
+**Margens, Preenchimento e Borda:**
 .caixa { margin: 10px; padding: 20px; border: 1px solid #ccc; } 
 4. Flexbox:
 O Flexbox é uma técnica poderosa para criar layouts flexíveis e responsivos.
 
-Container Flex:
+**Container Flex:**
 .container { display: flex; justify-content: space-between; } 
 Itens Flexíveis:
 .item { flex-grow: 1; } 
 5. Grid:
 O Grid oferece um sistema bidimensional para layouts mais complexos.
 
-Container de Grade:
+**Container de Grade:**
 .grid-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; } 
 6. Transições e Animações:
-Transição Suave:
+
+**Transição Suave:**
 .botao { transition: background-color 0.3s ease; } .botao:hover { background-color: #27ae60; } 
 Animação Chave:
 @keyframes girar { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } .icone { animation: girar 2s infinite linear; } 
@@ -87,6 +90,7 @@ Foi passado conceitos basicos para inicio de treinamento disponibilizado apostil
 criado acesso ao google class room para envio das atividades e acompanhamento da turma.
 
 **GIT E GITHUB**
+
 Ao final do aprendizado de HTML5 e CSS foi realizado treinamento sobre utilização no git e github uma novidade para varios da turma.
 Muitas pessoas pensam que Git e GitHub são a mesma coisa. Isso é uma dúvida comum principalmente de quem está começando. Entender cada um deles e como eles funcionam é importante, pois se não agora, uma hora você vai precisar.
 O Git é um sistema de controle de versão de arquivos. É um software livre e muito utilizado no desenvolvimento de software onde diversas pessoas estão contribuindo simultaneamente, podendo criar e editar arquivos.
