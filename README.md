@@ -17,7 +17,8 @@ Inicialmente foi apresentado conceitos, apostilas e tutoriais sobre linguagem HT
 ![image](https://github.com/MarcioMa/Projeto-Final-Senac-2024/assets/44624503/af76a8e3-366d-4034-88d7-04fb90f44815)
 
 Dentre os elementos os que compõem a estrutura de uma página são:
-https://www.macoratti.net/Cursos/html5/html5_62.gif
+![image](https://github.com/MarcioMa/Projeto-Final-Senac-2024/assets/44624503/4a9af6b0-5999-4395-a56d-f207a324727e)
+
 
 **ESTILO CSS**
 
