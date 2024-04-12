@@ -3,36 +3,59 @@
     <head>
         <meta charset="utf8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="stylesheet" href="./_css/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="../_css/index.css">
     </head>
     <body>
-        <main>
-            <span id="title"><h1>Web</h1><h3>Crafters</h3></span>
-            <div class="container">
-                <div class="card card-container">
-                    <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-                    <img id="profile-img" class="profile-img-card" src="./_img/icone.png"/>
-                    <p id="profile-name" class="profile-name-card"></p>
-                    <form class="form-signin" action="./_site/home.html">
-                        <span id="reauth-email" class="reauth-email"></span>
-                        <input type="text" id="nome" class="form-control" placeholder="Nome" required autofocus>
-                        <input type="password" id="senha" class="form-control" placeholder="Senha" required>
-                        <div id="remember" class="checkbox">
-                            <label>
-                                <input type="checkbox" value="remember-me"> Lembre-se de mim
-                            </label>
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
-                    </form><!-- /form -->
-                    <a href="#" class="forgot-password">
-                        Esqueceu a senha?
-                    </a>
-                </div><!-- /card-container -->
-            </div>
-        </main>
+        <div class="topo" class="material-symbols-outlined">
+            <img class="logo" src="../_img/logomarca.png" alt="logomarca">
 
+            <ul class="menu">
+                <li><a href="#">HMTL5</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">CONTATOS</a></li>
+                <li><a href="login.html">LOGIN
+                    <span id="ico" class="material-symbols-outlined">
+                        lock_person
+                        </span>
+                    </a>
+                </li>
+            </ul> 
+        </div>
+        <div class="all">
+            <section class="secHtml">
+                <h1>O que é HTML? História do HTML</h1>
+                <p>O HTML (Hypertext Markup Language) é a linguagem padrão para a criação de páginas da web. Ele define 
+                    a estrutura e o layout de uma página da web usando uma variedade de tags e atributos. HTML permite 
+                    a criação de links, imagens, formulários e outros elementos interativos. É a base fundamental para 
+                    a construção de qualquer site na internet. Aprenda mais sobre o HTML e como ele revolucionou a forma 
+                    como compartilhamos informações online.</p>
+                    <a href="#html" class="sbmais">Saiba mais</a>         
+            </section>
+            <section class="secjs">
+                <h1>O que é JavaScript? História do JavaScript</h1>
+                <p>Linguagem de Programação Versátil o JavaScript é uma linguagem de programação fundamental para o 
+                    desenvolvimento web. Ela fornece recursos dinâmicos e interativos, como animações, formulários 
+                    dinâmicos e atualização de conteúdo sem recarregar a página.</p>
+                    <a href="#js" class="sbmais">Saiba mais</a>
+            </section>
+            <section class="secCss">
+                <h1>O que é CSS? História do CSS</h1>
+                <p>O CSS (Cascading Style Sheets) é uma linguagem de folha de estilo utilizada para descrever 
+                    a apresentação de um documento escrito em HTML ou XML. Ela fornece a aparência visual e o 
+                    layout de páginas da web, permitindo que os desenvolvedores definam cores, fontes, espaçamento, 
+                    bordas e outros aspectos visuais. Além disso, o CSS é capaz de adaptar a aparência de um site para 
+                    diferentes dispositivos e tamanhos de tela, tornando-o fundamental 
+                    para o design responsivo.</p>
+                    <a href="#css" class="sbmais">Saiba mais</a>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="pj2024">Projeto final Curso de programação JavaScript Senac 2024</p>
+            <p class="textp">Professor: Lucas Souto</p>
+            <p class="textp">Alunos: Alessandro R. Nascimento | Aninhah Alves | Rhaicon R. Lourenço | Victor Julio | Marcio M. Araujo</p>
+            <img id="img1" src="../_img/senac100colorida.png" alt="senac100colorida"><img id="img2" src="../_img/javascript-39402.png" alt="JS">
+        </footer>
     </body>
 </html>
