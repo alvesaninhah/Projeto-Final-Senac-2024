@@ -4,8 +4,8 @@ function mascaraDeTelefone( telefone ){
 
 function tiraHifen(telefone) {
     const textoAtual = telefone.value;
+    
     const textoAjustado = textoAtual.replace(/\-/g, '');
-
     telefone.value = textoAjustado;
 }
 
