@@ -1,0 +1,50 @@
+.titulop {
+    font-size: 39pt;
+    text-align: center; 
+    line-height: 1em;
+ }
+
+.img1 {
+   margin-right: auto;
+   width: 400px;
+   height: 300px;
+   position: relative;
+   display: block;
+   left: 30px;
+}
+.titulolista {
+    text-align: left;
+    
+}
+.borda {
+    font-size: 19.9pt;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 30%;
+    margin-top: 40px;
+    max-width: 600px;
+    background-color: #cde0f8;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+ul li {
+    text-align: left;
+}
+.ulhtml {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.textos {
+    position: relative;
+    display: block;
+    left: 100px;
+    text-align: justify;
+}
+
