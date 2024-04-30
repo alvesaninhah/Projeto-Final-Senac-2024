@@ -2,29 +2,41 @@
     font-size: 39pt;
     text-align: center; 
     line-height: 1em;
- }
-
-.img1 {
-   margin-right: auto;
-   width: 400px;
-   height: 300px;
-   position: relative;
-   display: block;
-   left: 30px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; /* Isso impede a rolagem horizontal */
+}
+
+.container {
+    width: 80%; /* ou a porcentagem que você preferir */
+    max-width: 1200px; /* ou o valor máximo que você preferir */
+    margin: 0 auto;
+}
+.img1 {
+    display: block;
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    width: 400px;
+    height: 300px;
+ }
+ 
 .titulolista {
     text-align: left;
-    
 }
+
 .borda {
     font-size: 19.9pt;
     text-align: center;
     position: relative;
-    display: block;
-    left: 30%;
-    margin-top: 40px;
+    margin: 40px auto; /* Centraliza o elemento horizontalmente */
     max-width: 600px;
-    background-color: #cde0f8;
+    background-color: #b1cff3;
     padding: 40px;
     border-radius: 10px;
 }
@@ -32,19 +44,17 @@
 ul li {
     text-align: left;
 }
+
 .ulhtml {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: center;
-    
 }
 
 .textos {
     position: relative;
-    display: block;
-    left: 100px;
+    margin-left: 100px; /* Use margin em vez de left para mover o texto */
     text-align: justify;
 }
-
