@@ -30,14 +30,14 @@
             </ul>
         </div>
         <div class="all">
-            <form class="form-horizontal" action="">
+            <form class="form-horizontal" id="cadFormulario">
                 <fieldset>
                   <legend>Novo Cadastro</legend>
-                  
+
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="textinput">Nome</label>  
-                      <div class="col-md-5">
-                      <input id="textinput" name="textinput" type="text" placeholder="Seu Nome" class="form_input" required="">
+                      <div class="col-md-5">  
+                      <input id="textinput" name="nome" id="nome" type="text" placeholder="Seu Nome" class="form_input" required="">
                         
                       </div>
                     </div>
@@ -46,7 +46,7 @@
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="txtSobrenome">Sobrenome</label>  
                       <div class="col-md-5">
-                      <input id="txtSobrenome" name="txtSobrenome" type="text" placeholder="Seu Sobrenome" class="form_input" required="">
+                      <input id="txtSobrenome" name="sobrenome" id="sobrenome" type="text" placeholder="Seu Sobrenome" class="form_input" required="">
                         
                       </div>
                     </div>
@@ -58,7 +58,7 @@
                         oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" onblur="this.value='('+ this.value +')'" onfocus="this.value=''"/>
                         </div>
                         <div class="col-md-4">
-                        <input id="txtCelular" maxlength="9" name="txtCelular" type="text" placeholder="Exemplo 00000-0000 ou 0000-0000" class="form_input" required="required"
+                        <input id="celular" maxlength="9" name="celular" type="text" placeholder="Exemplo 00000-0000 ou 0000-0000" class="form_input" required="required"
                         onblur="mascaraDeTelefone(this)" onfocus="this.value='', tirarHifen(this)" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" > 
                         </div>
                     </div>
@@ -66,14 +66,14 @@
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="txtEmail">E-mail</label>  
                       <div class="col-md-6">
-                      <input id="txtEmail" name="txtEmail" type="text" placeholder="seuemail@email.com.br" class="form_input" required="" onblur="IsEmail(this.value)">
+                      <input id="email" name="email" type="text" placeholder="seuemail@email.com.br" class="form_input" required="" onblur="IsEmail(this.value)">
                       </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="txtRetryEmail">Confirme E-mail</label>  
                         <div class="col-md-6">
-                        <input id="txtRetryEmail" name="txtRetryEmail" type="text" placeholder="seuemail@email.com.br" class="form_input" required="" onblur="IsRetryEmail(this.value)">
+                        <input id="retryEmail" name="retryEmail" type="text" placeholder="seuemail@email.com.br" class="form_input" required="" onblur="IsRetryEmail(this.value)">
                         </div>
                       </div>
                     
@@ -81,27 +81,28 @@
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="txtPwd">Senha</label>
                       <div class="col-md-4">
-                        <input id="txtPwd" name="txtPwd" type="password" placeholder="Digite sua senha" class="form_input" required="">
+                        <input id="senha" name="senha" type="password" placeholder="Digite sua senha" class="form_input" required="">
                       </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="txtRetrySenha">Confirme Senha</label>
                         <div class="col-md-4">
-                          <input id="txtRetrySenha" name="txtRetrySenha" type="password" placeholder="Confirme sua senha" class="form_input" required="">
+                          <input id="retrySenha" name="retrySenha" type="password" placeholder="Confirme sua senha" class="form_input" required="">
+                          <input type="hidden" value="1" id="ativo" name="ativo">
                         </div>
                       </div> 
                     
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="bntSend"></label>
                       <div class="col-md-8">
-                        <button type="submit" id="bntSend" name="bntSend" class="submit">Enviar Cadastro</button>
+                        <button type="submit" id="bntSend" name="bntSend" class="submit" onclick="enviarDados()">Enviar Cadastro</button>
                         <button type="reset" id="bntLimpar" name="bntLimpar" class="reset">Limpar Tudo</button>
                       </div>
                     </div>
-                
                 </fieldset>
                 </form>  
+                <script src="../_js/scriptDB.js"></script>
         </div>
         <footer class="footer">
             <p class="pj2024">Projeto final Curso de programação JavaScript Senac 2024</p>

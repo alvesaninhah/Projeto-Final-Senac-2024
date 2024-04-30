@@ -1,14 +1,12 @@
-const express = require('express');
-const { query } = require('./conn');
-const app = express();
+const app = require("../app.js");
+const connection = require("../src/db/conn.js");
 
-app.use(express.json());
+const PORT = 8080;
 
-const PORT =  3003;
-
-app.listen(3003, ()=>{console.log(`Funcionado na porta ${PORT}`)});
-
-app.get('/', async (req, res) =>{
-    const query = await queryTudo();
-    return res.status(201).json(query);
+app.listen(PORT, async () => {
+  console.log(`API está sendo executada na porta ${PORT}`);
+  const [result] = await connection.execute("SELECT 1");
+  if (result) {
+    console.log("MySQL connection OK");
+  }
 });
