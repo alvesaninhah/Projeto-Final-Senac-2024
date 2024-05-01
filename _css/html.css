@@ -1,33 +1,39 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .titulop {
     font-size: 39pt;
     text-align: center; 
-    line-height: 1em;
+    margin: 30px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    
+    font-family: "Questrial", sans-serif; peso da fonte: 400; estilo de fonte: normal;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    overflow-x: hidden; /* Isso impede a rolagem horizontal */
+    flex-grow: initial;  
 }
 
 .container {
-    width: 80%; /* ou a porcentagem que você preferir */
-    max-width: 1200px; /* ou o valor máximo que você preferir */
+    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .img1 {
     display: block;
-    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    margin: 0 auto;
     width: 400px;
     height: 300px;
  }
  
 .titulolista {
     text-align: left;
+    color: #28ABDC;
+    line-height: 2.0em;
+    
 }
 
 .borda {
@@ -36,13 +42,14 @@ body {
     position: relative;
     margin: 40px auto; /* Centraliza o elemento horizontalmente */
     max-width: 600px;
-    background-color: #b1cff3;
+    background-color: #d1d7f3;
     padding: 40px;
     border-radius: 10px;
 }
 
 ul li {
     text-align: left;
+    line-height: 1.8;
 }
 
 .ulhtml {
@@ -57,4 +64,22 @@ ul li {
     position: relative;
     margin-left: 100px; /* Use margin em vez de left para mover o texto */
     text-align: justify;
+}
+.texto {
+    font-weight: normal;
+    font-family: "Questrial", sans-serif; peso da fonte: 400; estilo de fonte: normal;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
