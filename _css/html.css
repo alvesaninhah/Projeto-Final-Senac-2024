@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: "Questrial", sans-serif; peso da fonte: 400; estilo de fonte: normal;
+    font-family: "Questrial", sans-serif;
     justify-content: center;
     align-items: center;
     flex-grow: initial;  
@@ -32,10 +32,14 @@ body {
 .titulolista {
     text-align: left;
     color: #28ABDC;
-    line-height: 2.0em;
+    line-height: 3.0em;
     
 }
-
+.finais {
+    font-weight: normal;
+    font-family: sans-serif;
+    
+}
 .borda {
     font-size: 19.9pt;
     text-align: center;
@@ -47,37 +51,45 @@ body {
     border-radius: 10px;
 }
 
-ul li {
-    text-align: left;
-    line-height: 1.8;
-}
+.lista2 li {
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0%;
+} 
+
 
 .ulhtml {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    line-height: 1.8;
+
 }
 
 .textos {
     position: relative;
     margin-left: 100px; /* Use margin em vez de left para mover o texto */
     text-align: justify;
+    line-height: 2.0em;
 }
 .texto {
     font-weight: normal;
-    font-family: "Questrial", sans-serif; peso da fonte: 400; estilo de fonte: normal;
+    font-family: sans-serif;
 }
 table {
     border-collapse: collapse;
     width: 100%;
+    
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 1px;
     text-align: left;
+    padding: 60px;
 }
 
 th {
