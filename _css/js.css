@@ -26,7 +26,7 @@ body {
 .titulolista {
     font-size: 30px;
     text-align: left;
-    color: #8673f1;
+    color: rgb(255, 117, 5);
     line-height: 1.5em;
     
 }
@@ -37,7 +37,7 @@ body {
 }
 .PC {
     font-size: 25;
-    color: #4d30f1;
+    color: rgb(255, 117, 5);
 }
 .borda {
     font-size: 10.9pt;
@@ -45,7 +45,7 @@ body {
     position: relative;
     margin: 40px auto;
     max-width: 400px;
-    background-color: #d4c6f0;
+    background-color: #ecdfcf;
     padding: 40px;
     border-radius: 10px;
 }
@@ -58,6 +58,11 @@ body {
     list-style-type: decimal;
     margin-top: 20px;
 } 
+.unicos {
+    list-style-type: square;
+    font-size: 23px;
+    color: rgb(255, 117, 5);
+}
 
 .lista2 {
     font-weight: normal;
@@ -97,12 +102,12 @@ table {
 }
 
 th, td {
-    border: 5px solid #cfc1e6;
+    border: 5px solid #f7c894;
     padding: 10px;
     text-align: left;
     padding: 5px;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #f7c894;
 }
